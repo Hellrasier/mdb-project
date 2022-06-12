@@ -11,7 +11,6 @@
  .welcome {
     font-color: red
     
-    
  }
 
 </style>
