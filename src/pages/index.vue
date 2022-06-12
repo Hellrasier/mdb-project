@@ -10,6 +10,9 @@
 </template>
 
 <style lang="sass">
+
   body
     background-color: black
+
+
 </style>
