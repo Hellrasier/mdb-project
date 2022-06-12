@@ -11,5 +11,5 @@
 
 <style lang="sass">
   body
-    background-color: brown
+    background-color: black
 </style>

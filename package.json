@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Hellrasier/mdb-project#readme",
   "dependencies": {
     "dotenv": "^16.0.1",
-    "node-themoviedb": "^0.2.8"
+    "node-themoviedb": "^0.2.8",
+    "yarn": "^1.22.19"
   }
 }
