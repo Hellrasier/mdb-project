@@ -8,8 +8,13 @@
 
   .bigname 
     color: white
-    font-size: 250px
+    font-size: 290px
     text-align: center
+    letter-spacing: 0.17em 
+    font-weight: 700
+    font-height: 354
+
+
 
 
 </style>
