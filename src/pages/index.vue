@@ -1,5 +1,9 @@
 <template>
   <Header /> 
+    <div>
+    
+
+    </div>
 
   <FilmsPropose />
 
@@ -10,6 +14,7 @@
 </template>
 
 <style lang="sass">
-  body
-    background-color: brown
+  
+   
+
 </style>
