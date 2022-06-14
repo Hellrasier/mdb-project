@@ -1,25 +1,37 @@
 <template>
+<div class="header">
   <div class="menu_buttoms">
     <p class="logo">
       <img src="/images/logo.png" alt="logo" />
     </p>
-    <div class="one">Фильмы</div>
+    <div class="one">
+      <input type="button" /> Фильмы
+      </div>
     <div class="two">Сериалы</div>
     <div class="three">Мультфильмы</div>
     <div class="four">Аниме</div>
-    <div><span class="megasearch">Мегапоиск</span></div>
+    </div>
+    <div class="between"><span class="megasearch">Мегапоиск</span></div>
   </div>
 
+
   <div class="border_bigname">
-    <p class="bigname">FILMEX</p>
+    <span class="bigname">FILMEX</span>
   </div>
 </template>
 
 <style lang="sass">
 .bigname
   color: white
-  font-size: 20em
-  letter-spacing: 0.30em
+  font-family: HelveticaNeueCyr
+  font-size: 37vh
+  font-style: normal
+  font-weight: 700
+  text-align: center
+  font-stretch: 200% 
+  letter-spacing: 0.15em
+  line-height: 1em
+  
   
 
  
@@ -27,17 +39,21 @@
   display: flex 
   justify-content: center 
   align-items: center 
-  height: 10em
-  //border: medium dashed green
-  padding:  5em 5em 0em 10em
+   //border: medium dashed green
+ 
+
+.header
+  display: flex
+  justify-content: space-between
 
 
 .menu_buttoms
   display: flex 
-  margin-top: 1em  
-  margin-left: -1em 
-  font-size: 90% 
-
+  flex-direction: row
+  height: 100%
+  width: 90%
+  
+  
 
 .logo
   flex: 0.05 
@@ -50,7 +66,7 @@
   height: 2.5em 
   text-align: center 
   margin: 0.4em 1em 1em 0em 
-  padding: 0.4em 0em 1em 0em 
+  
 
 .two
   font-size: 14px 
@@ -60,7 +76,7 @@
   height: 2.5em 
   text-align: center 
   margin: 0.4em 1em 1em 0em 
-  padding: 0.4em 0em 1em 0em 
+   
 
 .three
   font-size: 14px
@@ -70,7 +86,7 @@
   height: 2.5em
   text-align: center
   margin: 0.4em 1em 1em 0em
-  padding: 0.4em 0em 1em 0em
+ 
 
 .four
   font-size: 14px
@@ -80,11 +96,18 @@
   height: 2.5em
   text-align: center
   margin: 0.4em 1em 1em 0em
-  padding: 0.4em 0em 1em 0em
+ 
 
-.megasearch
+div.between
   font-size: 14px
   border: 1px solid white
+  padding-right: 5em
+  
+
+
+
+  
+
   
 
   
