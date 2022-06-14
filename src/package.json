@@ -11,6 +11,7 @@
     "nuxt": "3.0.0-rc.3"
   },
   "dependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
     "dotenv": "^16.0.1",
     "node-themoviedb": "^0.2.8",
     "sass": "^1.52.2",

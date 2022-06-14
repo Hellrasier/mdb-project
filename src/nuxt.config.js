@@ -4,11 +4,16 @@ import { defineNuxtConfig } from 'nuxt'
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
+    ['@nuxtjs/dotenv', { path: '.env' }]
   ],
   
   buildModules: [
     '@nuxtjs/tailwindcss',
   ],
+
+  // plugins: [
+  //   '~/plugins/mdb.js'
+  // ],
   
   build: {
     postcss: {
@@ -23,13 +28,4 @@ export default defineNuxtConfig({
     '~/assets/fonts/stylesheet.css'
   ],
   
-  // vite: {
-  //     css: {
-  //         preprocessorOptions: {
-  //             sass: {
-  //                 additionalData: '@import "@/assets/css/main.sass"',
-  //             },
-  //         },
-  //     },
-  // }
 })
