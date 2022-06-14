@@ -20,6 +20,13 @@
   </div>
 </template>
 
+
+<script>
+  export default {
+  
+  }
+</script>
+
 <style lang="sass">
 .bigname
   color: white
@@ -102,15 +109,7 @@ div.between
   font-size: 14px
   border: 1px solid white
   padding-right: 5em
-  
 
-
-
-  
-
-  
-
-  
 </style>
 
 <!-- level 1 -->
