@@ -21,6 +21,13 @@
 
 </template>
 
+
+<script>
+  export default {
+  
+  }
+</script>
+
 <style lang="sass">
 .bigname
   color: white
@@ -118,11 +125,8 @@
 
 
 
-  
 
-  
 
-  
 </style>
 
 <!-- level 1 -->
