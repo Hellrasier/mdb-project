@@ -1,15 +1,15 @@
 <template>
-<div class="header">
-  <div class="menu_buttoms">
-    <p class="logo">
-      <img src="/images/logo.png" alt="logo" />
-    </p>
-    <div class="one">
-      <input type="button" /> Фильмы
+  <div class="header">
+    <div class="menu_buttoms">
+      <p class="logo">
+        <img src="/images/logo.png" alt="logo" />
+      </p>
+      <div class="one">
+        <input type="button" /> Фильмы
       </div>
-    <div class="two">Сериалы</div>
-    <div class="three">Мультфильмы</div>
-    <div class="four">Аниме</div>
+      <div class="two">Сериалы</div>
+      <div class="three">Мультфильмы</div>
+      <div class="four">Аниме</div>
     </div>
     <div class="between"><span class="megasearch">Мегапоиск</span></div>
   </div>
