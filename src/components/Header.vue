@@ -1,20 +1,22 @@
 <template>
 
 <div class="header">
-    <p class="logo">
-      <img src="/images/logo.svg" alt="logo" />
-    </p>
- 
 
   <div class="menu_buttons">
-    <div class="one">Фильмы</div>
-    <div class="two">Сериалы</div>
-    <div class="three">Мультфильмы</div>
-    <div class="four">Аниме</div>
+    <div class="logotype">
+        <img src="/images/logo.svg" alt="logo" />
+    </div>
+    <div class="mmm">
+      <div class="one">Фильмы</div>
+      <div class="two">Сериалы</div>
+      <div class="three">Мультфильмы</div>
+      <div class="four">Аниме</div>
+    </div>
   </div>
 <div class="between"><span class="megasearch">МЕГАПОИСК</span></div>
-    
+ 
 </div>
+
   <div class="border_bigname">
     <span class="bigname first">F</span>
     <span class="bigname">I</span>
@@ -23,6 +25,9 @@
     <span class="bigname">E</span>
     <span class="bigname">X</span>
 </div>
+
+
+
 
 </template>
 
@@ -40,8 +45,10 @@ export default {
   font-size: 18vw
   font-style: normal
   font-weight: 700
-  //letter-spacing: 0.2em
   line-height: 0.9em
+  vertical-align: middle
+  z-index: -1
+   //letter-spacing: 0.2em
      
 
  
@@ -49,6 +56,9 @@ export default {
   display: flex  
   text-align: center
   justify-content: space-between
+
+
+
     
 .first
   margin-left: -1.2vw
@@ -60,66 +70,90 @@ export default {
 .header
   display: flex
   justify-content: space-between
-  max-width: 170px
+  //max-width: 170px
 
 
 .menu_buttons
   display: flex  
-  align-items: center
-  flex-direction: row
-  height: 100%
-  width: 30%
-  gap: 2em
-  div
-    display: flex 
-    justify-content: center 
-    align-items: center 
-    font-size: 13px 
-    flex-basis: 20%
-    border: 1px solid white 
-    padding: 0.3em 0.5em 
-    padding-right: 15px
-    padding-left: 15px
-  
- 
-   
-     
-.img
-
-  
-
-.logo
-  display: flex  
-  align-items: center
   justify-content: space-between
+  align-items: center
+  height: 100%
+  gap: 1.5em
+
+
+.mmm
+  display: flex 
+  flex-direction: row
+  justify-content: space-between
+  align-items: center 
+  font-size: 13px 
+  font-weight: 500
+  flex-basis: 20%
+  gap: 1.5em
+  div
+      border: 1px solid white 
+      padding: 0.3em 0.5em 
+      padding-right: 10px
+      padding-left: 10px
+      cursor: pointer
+  div:hover
+    color: black
+    background-color: white 
+    font-weight: 600
+    
+   
+  //   transition: 0.4s ease-out
   
+.one:hover
+ letter-spacing: -1.05px
+.two:hover
+ letter-spacing: -0.55px
+.three:hover
+ letter-spacing: -0.75px
+.four:hover
+ letter-spacing: -0.75px 
 
-
-
-
+ 
+  
 .between
   display: flex 
-  justify-content: center 
-  display: flex 
-  font-size: 13px
+  position: relative
+
+
+
+.megasearch
   font-family: HelveticaNeueCyr
-  font-style: bold
-  border: 2px solid red
-  border-radius: 25em   
+  font-size: 13px
+  font-weight: 400
+  border: 2px solid #D12626
+  border-radius: 30em  
   letter-spacing: 0.1em
-  text-align: center 
   font-stretch: 200% 
   width: 14em
   height: 2.2em
-  position: relative
-  align-items: center
+  text-align: center
+  padding-top: 0.2em
+  padding-bottom: 1.2em
+  cursor: pointer
+
+.between:hover
+  background-color: #D12626
+  border-radius: 30em  
+  transition: 0.2s all ease-out
   
 
-  
+.megasearch:hover
+  font-weight-adjust: 1
+
+
+
+
+
+
+
   
 
-.megasearch
-  
+ 
 
 
 

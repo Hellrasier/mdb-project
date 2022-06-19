@@ -37,9 +37,9 @@
 .comp1
   display: flex
   justify-content: space-between
-  .comp2
-    display: flex
-    justify-content: space-between
+.comp2
+  display: flex
+  justify-content: space-between
 </style>
 
 
