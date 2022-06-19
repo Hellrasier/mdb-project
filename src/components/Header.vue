@@ -1,4 +1,5 @@
 <template>
+
 <div class="header">
     <p class="logo">
       <img src="/images/logo.svg" alt="logo" />
@@ -27,9 +28,9 @@
 
 
 <script>
-  export default {
-  
-  }
+export default {
+
+}
 </script>
 
 <style lang="sass">
