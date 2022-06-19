@@ -1,8 +1,9 @@
 <template>
+
   <div class="header">
-    <div class="menu_buttoms">
+    <div class="menu_buttons">
       <p class="logo">
-        <img src="/images/logo.png" alt="logo" />
+        <img src="/images/logo.svg" alt="logo" />
       </p>
       <div class="one">
         <input type="button" /> Фильмы
@@ -11,14 +12,23 @@
       <div class="three">Мультфильмы</div>
       <div class="four">Аниме</div>
     </div>
-    <div class="between"><span class="megasearch">Мегапоиск</span></div>
+    <div class="between"><span class="megasearch">МЕГАПОИСК</span></div>
+
   </div>
 
 
   <div class="border_bigname">
     <span class="bigname">FILMEX</span>
   </div>
+
 </template>
+
+
+<script>
+export default {
+
+}
+</script>
 
 <style lang="sass">
 .bigname
@@ -47,12 +57,14 @@
   justify-content: space-between
 
 
-.menu_buttoms
+.menu_buttons
   display: flex 
   flex-direction: row
   height: 100%
   width: 90%
-  
+  font-weight: 400 
+  margin: 0.4em 1em 1em 0em
+ 
   
 
 .logo
@@ -62,7 +74,7 @@
   font-size: 14px 
   flex: 0.09 
   border: 1px solid white 
-  position: relative 
+  position: relative
   height: 2.5em 
   text-align: center 
   margin: 0.4em 1em 1em 0em 
@@ -97,20 +109,26 @@
   text-align: center
   margin: 0.4em 1em 1em 0em
  
+//.between
+  
 
-div.between
+.between
   font-size: 14px
-  border: 1px solid white
-  padding-right: 5em
+  border: 2px solid red
+  border-radius: 25em   
+  letter-spacing: 0.1em
+  text-align: center 
+  font-stretch: 200% 
+  width: 20em
+  position: relative
+  
+
   
 
 
 
-  
 
-  
 
-  
 </style>
 
 <!-- level 1 -->

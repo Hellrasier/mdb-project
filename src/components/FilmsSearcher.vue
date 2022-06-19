@@ -2,6 +2,11 @@
 
 </template>
 
+<script>
+  export default {
+
+  }
+</script>
 
 <!-- level 4 -->
 <!-- <body>
