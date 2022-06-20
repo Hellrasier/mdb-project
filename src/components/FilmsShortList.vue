@@ -92,8 +92,8 @@ div
     align-items: center
     justify-content: center
     position: absolute
-    top: 67.5em
-    left: 22em
+    top: 875px
+    left: 282px
 </style>
 
 
