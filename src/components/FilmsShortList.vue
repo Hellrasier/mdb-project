@@ -13,12 +13,14 @@
         <img src="/images/green-rycar.png" />
         <p>Легенда о Зелёном рыцаре</p>
         <div class="author">Дэвид Лоури<span class="year">2021</span></div>
+        <div class="score">6.3</div>
       </div>
 
       <div class="image">
         <img src="/images/liga-spravedliv.png" />
         <p>Лига справедливости</p>
         <div class="author">Зак Снайдер<span class="year">2021</span></div>
+        <div class="score">7.7</div>
       </div>
 
       <div class="image">
@@ -27,18 +29,21 @@
         <div class="author">
           Квентин Тарантино<span class="year">1994</span>
         </div>
+        <div class="score">9.0</div>
       </div>
 
       <div class="image">
         <img src="/images/ivan-vasilyev.png" />
         <p>Иван Васильевич</p>
         <div class="author">Леонид Гайдай<span class="year">1973</span></div>
+        <div class="score">8.6</div>
       </div>
 
       <div class="image">
         <img src="/images/interstelar.png" />
         <p>Интерстеллар</p>
         <div class="author">Кристофер Нолан<span class="year">2014</span></div>
+        <div class="score">8.7</div>
       </div>
     </div>
     <div class="film-data"></div>
@@ -80,6 +85,7 @@ div
   justify-content: space-between
 
 .image
+  position: relative
   div.score
     display: flex
     font-family: HelveticaNeueCyr
@@ -89,11 +95,12 @@ div
     background-color: #BC2626
     height: 1.4em
     width: 2em
+    box-shadow: 0 0 10px rgba(0,0,0,0.7)
     align-items: center
     justify-content: center
     position: absolute
-    top: 875px
-    left: 282px
+    top: 1em
+    left: 11em
 </style>
 
 
