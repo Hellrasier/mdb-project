@@ -1,20 +1,14 @@
 <template>
-  <Header /> 
-    <div>
-    
-
-    </div>
+  <Header />
+  <div></div>
 
   <FilmsPropose />
 
   <FilmsShortList />
 
   <FilmsSearcher />
-
 </template>
 
 <style lang="sass">
-
-
 </style>
 
